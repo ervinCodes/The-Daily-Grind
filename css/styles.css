@@ -1,0 +1,21 @@
+.jumbotron {
+    background-image: url("../images/coffee.jpg");
+    background-size: cover;
+    color: white;
+}
+
+.title {
+    background-color: black;
+    border: 1px solid white;
+    box-shadow: 0px 0px 0px 5px black;
+    display: inline-block;
+    text-align: center;
+    width: auto;
+    border-radius: 5px;
+    padding: 6px;
+    font-family: 'Sacramento', cursive;
+}
+
+body {
+    background-color: rgb(218, 214, 214);
+}
