@@ -1,7 +1,12 @@
+body {
+    background-color: rgb(231, 229, 229);
+}
+
 .jumbotron {
     background-image: url("../images/coffee.jpg");
     background-size: cover;
     color: white;
+    margin: 0;
 }
 
 .title {
@@ -16,6 +21,41 @@
     font-family: 'Sacramento', cursive;
 }
 
-body {
-    background-color: rgb(218, 214, 214);
+#welcome {
+    padding: 30px;
+    margin: 30px;
+    border: 1px solid black;
+    background-color: white;
 }
+
+#social {
+    padding: 30px;
+    margin: 30px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.border-line {
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #0c0c0c;
+    margin: 20px auto;
+}
+
+.site-footer {
+    background-color: rgb(63, 61, 61);
+    color: white;
+    padding: 10px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .line {
+    border-top: 1px solid grey;
+    flex-grow: 1;
+    margin: 0 10px;
+  }
