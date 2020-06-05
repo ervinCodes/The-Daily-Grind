@@ -16,15 +16,295 @@
     <title>The Daily Grind</title>
 </head>
 <body>
+    <!-- Header & Title -->
     <header>
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
-                <div class="title">
+                <a href="index.html" class="text-white"><div class="title">
                     <h1 class="display-4">The Daily Grind</h1>
-                </div>
+                </div></a>
             </div>
         </div>
     </header>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#homeNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-center" id="homeNavbar">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item text-uppercase">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item text-uppercase">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item active text-uppercase">
+                        <a class="nav-link" href="#">Menu</a>
+                    </li>
+                    <li class="nav-item text-uppercase">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Coffee Card Items -->
+    <div class="container">
+        <div class="row row-content">
+            <div class="col">
+                <h2 class="coffee-title text-uppercase">Coffee</h2>
+                <hr>
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col">
+                <div class="card-deck">
+                    <!-- Card #1 -->
+                    <div class="card">
+                        <img class="card-img-top" src="images/coffeeDrink.jpg" alt="Coffee Cup">
+                        <div class="card-body">
+                            <h5 class="card-title">Coffee</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <p><strong>$1.75-$2.50</strong></p>
+                        </div>
+                    </div>
+                    <!-- Card #2 -->
+                    <div class="card">
+                        <img class="card-img-top" src="images/cappuccino.jpg" alt="cappuccino">
+                        <div class="card-body">
+                            <h5 class="card-title">Cappuccino</h5>
+                                <p class="card-text">Quibusdam aut maxime magni rem numquam ut.</p>
+                                <p><strong>$2.20-$3.00</strong></p>
+                        </div>
+                    </div>
+                    <!-- Card #3 -->
+                    <div class="card">
+                        <img class="card-img-top" src="images/mocca.jpg" alt="Mocha">
+                        <div class="card-body">
+                            <h5 class="card-title">Mocha</h5>
+                                <p class="card-text">Dolor iusto distinctio earum, illum.</p>
+                                <p><strong>$2.00-$$2.90</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-content card-row-space">
+            <div class="col">
+                <div class="card-deck">
+                    <!-- Card #4 -->
+                    <div class="card">
+                        <img class="card-img-top" src="images/icedCoffee.jpg" alt="Iced Coffee">
+                        <div class="card-body">
+                            <h5 class="card-title">Iced Coffee</h5>
+                                <p class="card-text">Hic in vero officiis libero, nisi ipsum.</p>
+                                <p><strong>$2.50-$$3.50</strong></p>
+                        </div>
+                    </div>
+                    <!-- Card #5 -->
+                    <div class="card">
+                        <img class="card-img-top" src="images/latte.jpg" alt="Latte">
+                        <div class="card-body">
+                            <h5 class="card-title">Latte</h5>
+                                <p class="card-text">Doloremque dolore consequatur.</p>
+                                <p><strong>$1.75-$2.80</strong></p>
+                        </div>
+                    </div>
+                    <!-- Card #6 -->
+                    <div class="card">
+                        <img class="card-img-top" src="images/espresso.jpg" alt="Espresso">
+                        <div class="card-body">
+                            <h5 class="card-title">Espresso</h5>
+                                <p class="card-text">Amet consectetur adipisicing optio.</p>
+                                <p><strong>$2.00-$2.50</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Pastries Card Items -->
+        <div class="row row-content">
+            <div class="col">
+                <h2 class="coffee-title text-uppercase">Pastries</h2>
+                <hr>
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col">
+                <div class="card-deck">
+                    <!-- Card #7 -->
+                    <div class="card">
+                        <img class="card-img-top" src="images/baguette.jpg" alt="Baguette">
+                        <div class="card-body">
+                            <h5 class="card-title">Baguette</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <p><strong>$2.50</strong></p>
+                        </div>
+                    </div>
+                    <!-- Card #8 -->
+                    <div class="card">
+                        <img class="card-img-top" src="images/cookies.jpg" alt="Cookies">
+                        <div class="card-body">
+                            <h5 class="card-title">Cookies</h5>
+                                <p class="card-text">Quibusdam aut maxime magni rem numquam ut.</p>
+                                <p><strong>$1.50</strong></p>
+                        </div>
+                    </div>
+                    <!-- Card #9 -->
+                    <div class="card">
+                        <img class="card-img-top" src="images/cinnamonRoll.jpg" alt="Cinnamon Roll">
+                        <div class="card-body">
+                            <h5 class="card-title">Cinnamon Roll</h5>
+                                <p class="card-text">Dolor iusto distinctio earum, illum.</p>
+                                <p><strong>$2.90</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-content card-row-space">
+            <div class="col">
+                <div class="card-deck">
+                    <!-- Card #10 -->
+                    <div class="card">
+                        <img class="card-img-top" src="images/donuts.jpg" alt="Donuts">
+                        <div class="card-body">
+                            <h5 class="card-title">Donuts</h5>
+                            <p class="card-text">Hic in vero officiis libero, nisi ipsum.</p>
+                            <p><strong>$2.00</strong></p>
+                        </div>
+                    </div>
+                    <!-- Card #11 -->
+                    <div class="card">
+                        <img class="card-img-top" src="images/croissant.jpg" alt="Croissant">
+                        <div class="card-body">
+                            <h5 class="card-title">Croissant</h5>
+                                <p class="card-text">Doloremque dolore consequatur.</p>
+                                <p><strong>$1.75</strong></p>
+                        </div>
+                    </div>
+                    <!-- Card #12 -->
+                    <div class="card">
+                        <img class="card-img-top" src="images/macaroons.jpg" alt="Macaroons">
+                        <div class="card-body">
+                            <h5 class="card-title">Macaroons</h5>
+                                <p class="card-text">Amet consectetur adipisicing optio.</p>
+                                <p><strong>$2.50</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Breakfast Card Items -->
+        <div class="row row-content">
+            <div class="col">
+                <h2 class="coffee-title text-uppercase">Breakfast</h2>
+                <hr>
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col">
+                <div class="card-deck">
+                    <!-- Card #13 -->
+                    <div class="card">
+                        <img class="card-img-top" src="images/eggs.jpg" alt="Eggs">
+                        <div class="card-body">
+                            <h5 class="card-title">Eggs & Toast</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <p><strong>$5.00</strong></p>
+                        </div>
+                    </div>
+                    <!-- Card #14 -->
+                    <div class="card">
+                        <img class="card-img-top" src="images/oatmeal.jpg" alt="Oatmeal">
+                        <div class="card-body">
+                            <h5 class="card-title">Oatmeal</h5>
+                                <p class="card-text">Quibusdam aut maxime magni rem numquam ut.</p>
+                                <p><strong>$4.50</strong></p>
+                        </div>
+                    </div>
+                    <!-- Card #15 -->
+                    <div class="card">
+                        <img class="card-img-top" src="images/yogurt.jpg" alt="Yogurt and Fruits">
+                        <div class="card-body">
+                            <h5 class="card-title">Yogurt w/Fresh Fruits</h5>
+                                <p class="card-text">Dolor iusto distinctio earum, illum.</p>
+                                <p><strong>$3.50</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-content card-row-space">
+            <div class="col">
+                <div class="card-deck">
+                    <!-- Card #16 -->
+                    <div class="card">
+                        <img class="card-img-top" src="images/pancakes.jpg" alt="Pancakes">
+                        <div class="card-body">
+                            <h5 class="card-title">Pancakes</h5>
+                            <p class="card-text">Hic in vero officiis libero, nisi ipsum.</p>
+                            <p><strong>$4.75</strong></p>
+                        </div>
+                    </div>
+                    <!-- Card #17 -->
+                    <div class="card">
+                        <img class="card-img-top" src="images/croissantSandwhich.jpg" alt="Croissant Sandwhich">
+                        <div class="card-body">
+                            <h5 class="card-title">Croissant Sandwhich</h5>
+                                <p class="card-text">Doloremque dolore consequatur.</p>
+                                <p><strong>$6.25</strong></p>
+                        </div>
+                    </div>
+                    <!-- Card #18 -->
+                    <div class="card">
+                        <img class="card-img-top" src="images/bagelSandwhich.jpg" alt="Bagel Sandwhich">
+                        <div class="card-body">
+                            <h5 class="card-title">Bagel Sandwhich</h5>
+                                <p class="card-text">Amet consectetur adipisicing optio.</p>
+                                <p><strong>$5.50</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <div class="wrapper">
+                        <div class="line"></div>
+                            <h5>Links</h5>
+                        <div class="line"></div>
+                    </div>
+                        <ul class="list-unstyled">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="#">Menu</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                </div>
+                <div class="col text-center">
+                    <div class="wrapper">
+                        <div class="line"></div>
+                            <h5>Social</h5>
+                        <div class="line"></div>
+                    </div>
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram fa-lg"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook fa-lg"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </footer> 
     
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>

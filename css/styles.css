@@ -37,16 +37,8 @@ body {
     box-shadow: 0px 0px 0px 5px white;
 }
 
-.border-line {
-    display: block;
-    width: 80px;
-    height: 3px;
-    background: #0c0c0c;
-    margin: 20px auto;
-}
-
 .site-footer {
-    background-color: rgb(63, 61, 61);
+    
     color: white;
     padding: 10px;
 }
@@ -69,4 +61,13 @@ body {
 #love {
     margin-top: 100px;
     margin-bottom: 100px;
+}
+
+.coffee-title {
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+.card-row-space {
+    margin-top: 30px;
 }
