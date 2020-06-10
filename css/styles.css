@@ -71,3 +71,37 @@ body {
 .card-row-space {
     margin-top: 30px;
 }
+
+#top {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+#menuNav {
+    margin-top: 20px;
+    padding-bottom: 0;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+#form {
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+#contactUs {
+    padding: 30px;
+    margin: 30px;
+    align-items: center;
+}
+
+h2 {
+    font-family: 'Sacramento', cursive;
+    font-size: 3em;
+}
+
+p, a, h5, label, h3 {
+    font-family: 'Nanum Myeongjo', serif;
+}
+
