@@ -29,7 +29,7 @@
     </header>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
         <div class="container">
             <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#homeNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -66,10 +66,95 @@
                     <li class="nav-item">
                       <a class="nav-link" href="#breakfast">Breakfast</a>
                     </li>
-                  </ul>
+                </ul>
+            </div>
+        </div>
+        <!-- Order Button -->
+        <div class="row">
+            <div class="col">
+                <a role="button" class="btn btn-secondary btn-lg btn-block bg-dark text-white text-uppercase" id="orderButton">Place Order</a>
             </div>
         </div>
     </div>
+
+    <!-- Order Modal Content -->
+    <div id="orderModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-white">
+                    <h3 class="modal-title text-uppercase">Place Order</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form>
+                            <div class="row form-group">
+                                <label class="col-md-6 col-form-label" for="Coffee">Coffee</label>
+                                <!-- Select Coffee Dropdown -->
+                                <div class="col">
+                                    <select class="form-control" name="orderCoffee" id="Coffee">
+                                        <option selected>Select...</option>
+                                        <option value="coffee">Regular Coffee</option>
+                                        <option value="cappuccino">Cappuccino</option>
+                                        <option value="mocha">Mocha</option>
+                                        <option value="iced coffee">Iced Coffee</option>
+                                        <option value="latte">Latte</option>
+                                        <option value="espresso">Espresso</option>
+                                    </select>
+                                </div>
+                                <div class="col">
+                                    <select class="form-control" name="size of coffee" id="size">
+                                        <option selected>Select Size...</option>
+                                        <option value="small">Small</option>
+                                        <option value="medium">Medium</option>
+                                        <option value="large">Large</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <label class="col-md-6 col-form-label" for="Pastries">Pastries</label>
+                                <!-- Select Pastries Dropdown -->
+                                <div class="col">
+                                    <select class="form-control" name="orderPastries" id="orderPastries">
+                                        <option selected>Select...</option>
+                                        <option value="baguette">Baguette</option>
+                                        <option value="cookies">Cookies</option>
+                                        <option value="cinnamonroll">Cinnamon Roll</option>
+                                        <option value="donuts">Donuts</option>
+                                        <option value="croissant">Croissant</option>
+                                        <option value="macaroons">Macaroons</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <label class="col-md-6 col-form-label" for="Breakfast">Breakfast</label>
+                                <!-- Select Breakfast Dropdown -->
+                                <div class="col">
+                                    <select class="form-control" name="orderBreakfast" id="orderBreakfast">
+                                        <option selected>Select...</option>
+                                        <option value="eggs & toast">Eggs & Toast</option>
+                                        <option value="oatmeal">Oatmeal</option>
+                                        <option value="yogurt">Yogurt w/Fresh Fruits</option>
+                                        <option value="pancakes">Pancakes</option>
+                                        <option value="croissant sandwhich">Croissant Sandwhich</option>
+                                        <option value="bagel sandwhich">Bagel Sandwhich</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- Cancel and Submit buttons -->
+                            <div class="row form-group">
+                                <div class="col">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                    <button class="btn btn-primary" type="submit">Add to Cart</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Coffee Card Items -->
     <div class="container">
         <div class="row row-content">
@@ -85,7 +170,7 @@
                     <div class="card border border-dark">
                         <img class="card-img-top" src="images/coffeeDrink.jpg" alt="Coffee Cup">
                         <div class="card-body">
-                            <h5 class="card-title">Coffee</h5>
+                            <h5 class="card-title">Regular Coffee</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 <p><strong>$1.75-$2.50</strong></p>
                         </div>
@@ -105,7 +190,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Mocha</h5>
                                 <p class="card-text">Dolor iusto distinctio earum, illum.</p>
-                                <p><strong>$2.00-$$2.90</strong></p>
+                                <p><strong>$2.00-$2.90</strong></p>
                         </div>
                     </div>
                 </div>
@@ -340,5 +425,6 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/javascript.js"></script>
 </body>
 </html>
