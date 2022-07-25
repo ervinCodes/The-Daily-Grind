@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Code Source: (https://github.com/ervn12/The-Daily-Grind)
-- Live Site URL: (https://the-dailygrind.netlify.app/)
+- [Code Source](https://github.com/ervn12/The-Daily-Grind)
+- [Live Site](https://the-dailygrind.netlify.app/)
 
 ## My process
 
