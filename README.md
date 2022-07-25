@@ -1,6 +1,6 @@
 # The Daily Grind - Cafe Business Site
 
-A site created using Bootstrap and Javascript for a potential client that owns a Cafe business.
+A site created using Bootstrap and Javascript for a client that owns a Cafe business.
 
 ## Table of contents
 
