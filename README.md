@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/theDailyGrind.png)
+![](https://media.giphy.com/media/oHVwHtlRpTr43O4ik8/giphy.gif)
 
 ### Links
 
@@ -52,7 +52,29 @@ When I revisit this project, I would like to add a checkout page that shows all 
 
 ## Links to my other projects
 
-- [Personal Portfolio](https://www.dev-ervin.netlify.app)
-- [Time Tracking Dashboard](https://github.com/ervn12/timeTrackingDashboard)
-- [Preferred Auto Spa (Auto Detail Business)](https://github.com/ervn12/preferredAutoSpa2)
-
+<table bordercolor="#66b2b2">
+  
+  <tr>
+    <td width="33.3%"  style="align:center;" valign="top">
+<a target="_blank" href="https://github.com/ervn12/myPortfolio">Personal Portfolio</a>
+        <br />
+      <a target="_blank" href="https://github.com/ervn12/myPortfolio">
+            <img src="https://media.giphy.com/media/bLQ6ITkWJPVQxrOrJ1/giphy.gif" width="100%"  alt="My Portfolio"/>
+        </a>
+    </td>
+    <td width="33.3%" valign="top">
+<a target="_blank" href="https://github.com/ervn12/star-trek-CLIENT"> Star Trek - Field Guide to Aliens</a>
+      <br />
+        <a target="_blank" href="https://github.com/ervn12/star-trek-CLIENT">
+          <img src="https://media.giphy.com/media/txG49WSDMlTnZ0QXYe/giphy.gif" width="100%" alt="Matching Card Game"/>
+        </a>
+    </td>
+    <td width="33.3%" valign="top">
+<a target="_blank" href="https://github.com/ervn12/preferredAutoSpa2">Preferred Auto Spa</a>
+        <br />
+        <a target="_blank" href="https://github.com/ervn12/preferredAutoSpa2">
+          <img src="https://media.giphy.com/media/kk17SqHqmfytgvZqSN/giphy.gif" width="100%" alt="Portfolio"/>
+        </a>
+    </td>
+  </tr>
+</table>
